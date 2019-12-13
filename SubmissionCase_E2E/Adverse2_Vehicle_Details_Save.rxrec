@@ -1,0 +1,997 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4873c4ca-03b7-4d00-b4ad-b9b69aea761f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Adverse2_Vehicle_Details_Save"
+	namespace="SubmissionCase_E2E">
+	</codegen>
+	<variables>
+		<var
+		id="3d43b887-b903-4e65-8545-47d99e32abb4"
+		name="LicensePlate1">
+		</var>
+		<var
+		id="c3c79044-f533-45d4-bd74-eb503f3439dc"
+		name="LicensePlateState1">
+		</var>
+		<var
+		id="ff5d417d-24d3-4065-bf5c-8b6f4f64f873"
+		name="AD2_Vin_Year">
+		</var>
+		<var
+		id="9a0fa0e3-196b-45f2-aa55-b6e917f56996"
+		name="AD2_VIN_Make">
+		</var>
+		<var
+		id="a4e4c058-6297-4096-ace3-7cb888128ed0"
+		name="AD2_VIN_Model">
+			Civic
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="119ms"
+		enabled="True"
+		loc="6;8"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f7fbc8ba-367f-4d2d-9030-0901a5ebe6b7"
+		sx="858"
+		sy="564"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3d37cc66-1277-4ed0-a2f7-7ae07214104c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="buttontag"
+				rect="1622,975,131,37"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						pzhc pzbutton
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						pzbutton pzhc
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						pyCaseActionAreaButtons_pyWorkPage_17
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-click"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//button[text()='Save' and @name='pyCaseActionAreaButtons_pyWorkPage_17']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="10000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="c69b7259-156a-48fb-9cb3-f617b37be66f"
+		waitaction="Exists"
+		waittimeout="10000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1b9beb4e-254c-4981-a7df-1ba4b96106be"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='849b37f2true' and @name='$PpyWorkPage$pAdverseInfo$l2$pVehicleInfo$pHaveVINNumber']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="bc33d87c-c944-42db-b8f3-125fd09fffa0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="516e56f2-df8a-4e1f-949c-7dbbd8c60ad1"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="595,405,38,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						rb_ rb_standard radioLabel
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						radioLabel rb_ rb_standard
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						849b37f2false
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change"
+					readonly="False"
+					type="System.String">
+						...
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[#'workarea']/div[2]/div/div[1]/div[3]/iframe[@name='PegaGadget1Ifr']//div[#'pyFlowActionHTML']/div/div/div[2]/div/div/div/div/div/div/div/div[1]/div/div/div/div/div/?/?/div/span[2]/label[@title='']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="aeae528f-4e56-431e-bc0e-72280930dbbb">
+				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
+FABRRRQB/9k=
+			</helperscreenshot>
+			<matchname>
+				Id
+			</matchname>
+			<matchvalue>
+				849b37f2false
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="bc33d87c-c944-42db-b8f3-125fd09fffa0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="516e56f2-df8a-4e1f-949c-7dbbd8c60ad1"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, labeltag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="labeltag"
+				rect="595,405,38,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						rb_ rb_standard radioLabel
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						No
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						radioLabel rb_ rb_standard
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						label
+					</attribute>
+					<attribute
+					name="for"
+					type="System.String">
+						849b37f2false
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change"
+					readonly="False"
+					type="System.String">
+						...
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[#'workarea']/div[2]/div/div[1]/div[3]/iframe[@name='PegaGadget1Ifr']//div[#'pyFlowActionHTML']/div/div/div[2]/div/div/div/div/div/div/div/div[1]/div/div/div/div/div/?/?/div/span[2]/label[@title='']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="aeae528f-4e56-431e-bc0e-72280930dbbb">
+				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
+FABRRRQB/9k=
+			</helperscreenshot>
+			<matchname>
+				Id
+			</matchname>
+			<matchvalue>
+				849b37f2false
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4ea690ee-2072-4756-9b7c-83a4b4c6c44f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="LicensePlate1">
+				</binding>
+			</bindings>
+			<info
+			id="cfc3dbb6-4ab8-44f0-83f8-f465a4846a9f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@id='824df6b5' and @name='$PpyWorkPage$pAdverseInfo$l2$pVehicleInfo$pLicensePlate']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				MH15 HJ 1002
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4ea690ee-2072-4756-9b7c-83a4b4c6c44f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="LicensePlateState1">
+				</binding>
+			</bindings>
+			<info
+			id="38d1ee63-cd0e-4ada-a8cd-88ecc647f589"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@name='$PpyWorkPage$pAdverseInfo$l2$pVehicleInfo$pLicensePlateState']
+				</path>
+			</info>
+			<matchname>
+				TagValue
+			</matchname>
+			<matchvalue>
+				KY
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e3bf7f1c-ae48-4145-a0f8-870139b98e0e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="50f1891b-f58e-4ab1-b3eb-764871de1cae"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="461,592,13,13"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						checkbox chkBxCtl&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						0fb7f42e
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						checkbox chkBxCtl
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						true
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						$PpyWorkPage$pAdverseInfo$l2$pVehicleInfo$pEnterVehModelDetails
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						checkbox
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						true
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change"
+					readonly="False"
+					type="System.String">
+						[[&quot;runDataTransform&quot;, [&quot;ClearVehicleModel&quot;, &quot;=&quot;, &quot;pyWorkPage.AdverseInfo(2).VehicleInfo&quot;,&quot;:event&quot;]]]
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+						Checkbox
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					isempty="True"
+					name="data-template"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-test-id"
+					readonly="False"
+					type="System.String">
+						201807261258590861249366
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="validationtype"
+					readonly="False"
+					type="System.String">
+						true-false,calculateexpression
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@data-test-id='201807261258590861249366']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="21055714-4f50-4578-8290-6f9e1813dffe">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA0AE4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACkdtiM2M4BNLTZQWidR1KkCgCtZ3NzcxRTGCJIpFDZEpLAfTb/WphdW5baJ4i2CcBxnA6mqOmW4
+t4oFfTTHMqgNNiPrjk5BzTYbKdFsx5ePLmdn5HAOf8RQBdiv7WW388TxiLONzMAM1I9xCgUvNGoY
+ZBLAZFZa2l0sFthJVa3ZgQhTLZ7jOR+eDU1vZyRzWZKHbGj7tzAlSfpj9BQBfkmiiGZZUTIz8zAU
+1Lq3dtqTxM2N2A4Jx61FcQPJf20gXKRhsnPTI4rMn025axt40hG9C5YbgMZNAG7RRRQAVU1V2j06
+VkYqwxgqcHqKt1S1j/kFzf8AAf8A0IUpbMmXwsow2t5NCki38gDDOCx/xpohnaGSRNSkcIrN8rHn
+HbrQY5pLSBYpwilNrqTjg96teXHFZyxw4KrA+SPpU8qsTyK1yxpTtJp0TOxZjnJY5PU1bqlo/wDy
+C4f+Bf8AoRq7VR2RUfhQUUUUygooooAKr38DXNnJChAZsYLdOoNWKKHqJq6sZSWmqoiotxAFUADj
+t/3zQ9pqroyNcw7WGCMdR/3zWrRU8pPIu5XsIGtrOOFyCy5yV6dSasUUVS0KSsrBRRRQMKKKKACo
+7gstvIynawUkEduKKKAKEN5PLHppL7TOCZMAc4FadFFABRRRQAUUUUAf/9k=
+			</helperscreenshot>
+			<matchname>
+				Checked
+			</matchname>
+			<matchvalue>
+				True
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8255edd5-f597-41ed-b42e-1cd811ad7bb1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="50f1891b-f58e-4ab1-b3eb-764871de1cae"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, inputtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="inputtag"
+				rect="461,592,13,13"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						checkbox chkBxCtl&#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						0fb7f42e
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						checkbox chkBxCtl
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						input
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						true
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="checked"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="multiple"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						$PpyWorkPage$pAdverseInfo$l2$pVehicleInfo$pEnterVehModelDetails
+					</attribute>
+					<attribute
+					name="required"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						20
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						checkbox
+					</attribute>
+					<attribute
+					name="value"
+					type="System.String">
+						true
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-change"
+					readonly="False"
+					type="System.String">
+						[[&quot;runDataTransform&quot;, [&quot;ClearVehicleModel&quot;, &quot;=&quot;, &quot;pyWorkPage.AdverseInfo(2).VehicleInfo&quot;,&quot;:event&quot;]]]
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+						Checkbox
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					isempty="True"
+					name="data-template"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-test-id"
+					readonly="False"
+					type="System.String">
+						201807261258590861249366
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="validationtype"
+					readonly="False"
+					type="System.String">
+						true-false,calculateexpression
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@data-test-id='201807261258590861249366']
+				</path>
+			</info>
+			<matchname>
+				Value
+			</matchname>
+			<matchvalue>
+				true
+			</matchvalue>
+		</validationitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8255edd5-f597-41ed-b42e-1cd811ad7bb1">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD2_Vin_Year">
+				</binding>
+			</bindings>
+			<info
+			id="16804997-6a86-48ff-85dd-c6eb97f43d67"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//select[@data-test-id='201801040502270000649998']
+				</path>
+			</info>
+			<matchname>
+				Value
+			</matchname>
+			<matchvalue>
+				2016
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8255edd5-f597-41ed-b42e-1cd811ad7bb1">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD2_VIN_Make">
+				</binding>
+			</bindings>
+			<info
+			id="e2c9ca44-4cff-4ad8-981b-90ba5ac2b742"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pVehicleInfo$pVehicleMake']
+				</path>
+			</info>
+			<matchname>
+				Value
+			</matchname>
+			<matchvalue>
+				Suzuki
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="8255edd5-f597-41ed-b42e-1cd811ad7bb1">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD2_VIN_Model">
+				</binding>
+			</bindings>
+			<info
+			id="2125edd8-f3e2-4ae0-8fdc-641bc2900aa0"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//input[@name='$PpyWorkPage$pAdverseInfo$l2$pVehicleInfo$pNewVehicleModel']
+				</path>
+			</info>
+			<matchname>
+				Value
+			</matchname>
+			<matchvalue>
+				Civic
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="23ff739d-3daa-4030-b76e-25d64637451c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1f787bea-3f17-410d-8158-87a941bdcbef"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome' and @class='Chrome_WidgetWin_1' and @instance='0']/container[@accessiblename&gt;'Pega Case Manager Portal -']/container/container[1]
+				</path>
+			</info>
+		</loggingrecorditem>
+		<explicitdelayitem
+		duration="3000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="100ms"
+		enabled="True"
+		loc="43;11"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d53e29ba-9206-45fc-94a6-366641e775ac"
+		sx="1283"
+		sy="695"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ccce56d0-fd44-4c79-9274-cf9ae1c94746"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//button[text()='Continue' and @name='pyCaseActionAreaButtons_pyWorkPage_18']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="d8c4034f-596c-4755-95c6-cc2d7e4fcd20"
+	name="SubmissionCase_E2ERepository"
+	relativepath="SubmissionCase_E2ERepository.rxrep">
+		<codegen
+		classname="SubmissionCase_E2ERepository"
+		namespace="SubmissionCase_E2E">
+		</codegen>
+		<rootfolder
+		id="edc9576f-e82e-4618-86bf-a3926f9358cd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Adverse2_Vehicle_Details_Save.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

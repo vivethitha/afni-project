@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1f2237cf-b06d-42e6-a593-948e49c013b3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Edit_AdverseType"
+	namespace="SubmissionCase_E2E">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="119ms"
+		enabled="True"
+		loc="6;8"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f7fbc8ba-367f-4d2d-9030-0901a5ebe6b7"
+		sx="858"
+		sy="564"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3d37cc66-1277-4ed0-a2f7-7ae07214104c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="buttontag"
+				rect="1622,975,131,37"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						pzhc pzbutton
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						pzbutton pzhc
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						pyCaseActionAreaButtons_pyWorkPage_17
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-click"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//button[text()='Save' and @name='pyCaseActionAreaButtons_pyWorkPage_17']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="5ae2e9f9-2816-435a-8a35-53766e4ef3c1"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d3d3b5e2-c019-4735-9bbd-b344c85842dd"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//p[@name='$PpyWorkPage$pAdverseInfo$l1$pDisplayLabel']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="0b950a6a-d9c0-49a2-9db8-d23fc2ec84e3">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d3d3b5e2-c019-4735-9bbd-b344c85842dd"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, ptag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="ptag"
+				rect="772,434,240,23"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						leftJustifyStyle
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						CV
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Adverse Information (Vehicle)
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						leftJustifyStyle
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					isempty="True"
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctlformat"
+					readonly="False"
+					type="System.String">
+						T&amp;&amp;false&amp;&amp;*&amp;&amp;*&amp;&amp;true
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="name"
+					readonly="False"
+					type="System.String">
+						$PpyWorkPage$pAdverseInfo$l1$pDisplayLabel
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="rhp_name"
+					readonly="False"
+					type="System.String">
+						pxTextInput&#32;
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[#'workarea']/div[2]/div/div[1]/div[3]/iframe[@name='PegaGadget1Ifr']//div[#'pyFlowActionHTML']/div/div[1]/div[2]/div/div/div/div/div/div[1]/div/div/div/div/div/div/div/div/div[2]/div/p[@id='CV']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3f80405f-edee-4c32-82b6-2e50695a33bb">
+				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
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Adverse Information (Vehicle)
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="cb94f082-8d76-4d55-a645-6c373b2598b7">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4e306b3a-87c9-4673-a8e8-84a0fcdfb0da"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, ptag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="ptag"
+				rect="772,503,240,23"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						leftJustifyStyle
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						CV
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Adverse Information (Vehicle)
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						leftJustifyStyle
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctl"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-ctlformat"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="name"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="rhp_name"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//p[@name='$PpyWorkPage$pAdverseInfo$l2$pDisplayLabel']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Adverse Information (Vehicle)
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="be313852-57e3-4612-93a2-96dcd5d198b6">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9cbb59c4-f30b-4f94-939b-4e4c44e66fbf"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//p[@name='$PpyWorkPage$pAdverseInfo$l3$pDisplayLabel']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Adverse Information (Other)
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="100ms"
+		enabled="True"
+		loc="46;15"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c9440f47-bdc3-4a3c-9a64-9740fd942403"
+		sx="1286"
+		sy="699"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="957c24ba-66d5-4078-b172-5189085310f9"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//button[text()='Continue' and @name='pyCaseActionAreaButtons_pyWorkPage_18']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="d8c4034f-596c-4755-95c6-cc2d7e4fcd20"
+	name="SubmissionCase_E2ERepository"
+	relativepath="SubmissionCase_E2ERepository.rxrep">
+		<codegen
+		classname="SubmissionCase_E2ERepository"
+		namespace="SubmissionCase_E2E">
+		</codegen>
+		<rootfolder
+		id="edc9576f-e82e-4618-86bf-a3926f9358cd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Edit_AdverseType.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

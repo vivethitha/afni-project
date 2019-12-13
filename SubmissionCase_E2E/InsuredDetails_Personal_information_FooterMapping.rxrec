@@ -1,0 +1,1563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bdb2664a-14cb-454a-9398-dc0ab3389e79"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InsuredDetails_Personal_information_FooterMapping"
+	namespace="SubmissionCase_E2E">
+	</codegen>
+	<variables>
+		<var
+		id="a6f71181-e80b-4625-b92e-b360de3a5571"
+		name="ID_PI_FirstName">
+		</var>
+		<var
+		id="7f24129b-ef1f-460f-a9d7-892559c2a521"
+		name="ID_PI_LastName">
+		</var>
+		<var
+		id="b781d609-22bf-442a-9618-26271ec79b98"
+		name="ID_PI_Address1">
+		</var>
+		<var
+		id="f6a5bcfc-44c9-43e6-95c5-aad4d0c413d4"
+		name="ID_PI_Address2">
+		</var>
+		<var
+		id="8039f918-f37e-4bd7-a819-84c660d393cf"
+		name="ID_PI_City">
+		</var>
+		<var
+		id="9d95c48d-26c5-4872-b2d2-41d25211ded0"
+		name="ID_PI_State">
+		</var>
+		<var
+		id="083b3306-a85f-464a-8dea-f0a9a4a60164"
+		name="ID_PI_Zip">
+		</var>
+		<var
+		id="15097e72-92dd-430f-acd1-c93b3517f4bf"
+		name="AD1_PI_UseType">
+		</var>
+		<var
+		id="25109a50-40c0-49f5-8d99-82090de492e1"
+		name="AD1_LI_Busniess">
+		</var>
+		<var
+		id="4cc696b6-46ba-4db4-8cd6-fe1c899c5d52"
+		name="AD1_LI_PhoneType">
+		</var>
+		<var
+		id="85bcfea5-ed12-4391-bb3d-1136f2878204"
+		name="AD1_LI_Cell">
+		</var>
+		<var
+		id="769d5ff2-a935-4590-836a-c21d10d08213"
+		name="AD1_PI_Source">
+		</var>
+		<var
+		id="0038dd9b-2583-4e29-838c-990023b49927"
+		name="AO1_LI_CallerID">
+		</var>
+		<var
+		id="ffe61acc-999e-4ef1-8d30-76c3da8fe1a1"
+		name="ID_PI_PhoneNumber">
+		</var>
+	</variables>
+	<recorditems>
+		<mousewheelitem
+		delta="-480"
+		duration="500ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="50;13"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6383662c-522f-49cd-bcfd-bad72c02cd97"
+		sx="561"
+		sy="510"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b3d59298-60da-4f07-9aa0-a5bad2faeee6"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, h2tag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="h2tag"
+				rect="511,497,105,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						layout-group-item-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						headerlabel5157
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Claim Info
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						layout-group-item-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						h2
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-level"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//h2[@class='layout-group-item-title' and text()='Claim Info']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="734aa64f-0f54-4231-ac5d-1d9381bd3303">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAEUARQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAZ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt
++tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQB
+J5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361
+HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHm
+e361HRQBJ5nt+tFR0UAS7F9KNi+lOooAbsX0o2L6U6igBuxfSjYvpTqKAG7F9KNi+lOooAbsX0o2
+L6U6igBuxfSjYvpVW81KGzlEciyEld3ygf4+1Qf27a/885vyH+NS5JGsaFSSukaOxfSjYvpWd/bt
+r/zzm/If40f27a/885vyH+NHPHuV9Xq/ymjsX0o2L6Vnf27a/wDPOb8h/jR/btr/AM85vyH+NHPH
+uH1er/KaOxfSjYvpWd/btr/zzm/If40f27a/885vyH+NHPHuH1er/KaOxfSjYvpWd/btr/zzm/If
+40f27a/885vyH+NHPHuH1er/ACmjsX0o2L6Vnf27a/8APOb8h/jR/btr/wA85vyH+NHPHuH1er/K
+aOxfSjYvpWd/btr/AM85vyH+NH9u2v8Azzm/If40c8e4fV6v8po7F9KNi+lRWd3HeRGSMMAG2/MP
+8+tT1SdzGUXF2Y3YvpRsX0p1FAhuxfSjYvpTqKAG7F9KNi+lOooAbsX0o2L6U6igBuxfSinUUAU7
+q7ltYw7xwgBcszzbAT6Lxz+OKBfF7hYo0Q5UMQ0m1yD3Axz+dJJYs0hZJQN0fllmTc+PZs8fkaJb
+F5Y0ieWNolA4MWSCO6nPH60ANk1SJJym6HarbWzMA+fZcc/nU188yQr9nYLIXUDI4PtQtvLHI3lT
+qsTNuKlMsD3wc/0NSzReaE5xtcN064oArG9G+J8lY/LdpFxyCMcfzpWupwjBoVR2QtH8+enrxwfz
+pZLBJLtpixCuhR0HcnHP14pyWshOZ5g+1SqbU24B7nk5P5UAVzqXlJGshtxL5YdxJME6+nHJ/KpP
+t++ZEhRG3qGAaTazA/3Rjn8xTltZ49rRToH2hHJjJBA6EDPBoubSS4Xy2lRoyBuDxAnPqDxg/gaA
+LdFAGBiigDJvv+Q5B/1z/wDiqs1Wvv8AkOQf9c//AIqrNVT6+peI+x6fqwqKRmMqxK23I3E45qWo
+5IyzK6NtdeM4yMVsjmYyQyxRn593zLg45685oa4KSqrKo3HAG/5vrilaFnU75MkkHgcDB7Cm/ZiD
+w4A37/u8nnuar3epOoLOxIVU3Fi3VsdD9KWOdnKZj2q+cHdzmkZBbqZmYkRh2IA655pLcbwAVdGh
+Ygq4GeRnsT60m4jsx7yMs4H8Owtj6YponcgfuwCyFl+b+fFSPFuk3Zx8pXp600QY2fN9xCvTrRoG
+pHDNKUA2+Y20M2Wx17DirCMHQMOhGaiEDKB5cgU7Qpyuc471KihECjoBiiVugK46nJ/rF+optOT/
+AFi/UVDKK/h//jxf/rof5CtOszw//wAeL/8AXQ/yFadc8PhR2Yj+LIiupDFASn3z8q/U9KhjuWjt
+n87LyxNsOONxPT88ipLi2S5ePzQrxpklGXIJ7VEdOiVn8kLCrgZVFwNwOQaowGC7njnkE8aqqhOF
+bIGSRnOB7VJcX6Q7gdgw+xS77VJxk5PalFo7GY3EokMqBCFTaB16cn1pEsnS3iUTZmjJbzCvBJ65
+Gff1oAamoebGnlJHI7OU+WTK5xn72On4U6K8aS5aIJH8hwwEvzr77cdPfNP+zyMYmllDMj7uEwOh
+GBzx196bJaNLcK8siMiNuX93849t2en4UARRapHLOqBoSrttXEwL591xx+dWJZGW7hQH5WViR64x
+TYLeaEhBOvkL91dnzY9Cc9PwqSSHfPHJuxsDDGOuaAIIri7miWWO2h2MMjdMQf0U0VYtovIt44t2
+7YuM4xmigCSik2j0FG0egoAWik2j0FG0egoAWik2j0FG0egoAWik2j0FG0egoAWik2j0FG0egoAx
+tUlWDV4ZHBIEfb/gVJ/asH92T8h/jWu9vBIcyQxuemWUGm/Y7X/n2h/74FEXKOxtJ05pc19FbSxl
+f2rB/dk/If40f2rB/dk/If41q/Y7X/n2h/74FH2O1/59of8AvgU+eXl+JPLR8/w/yMr+1YP7sn5D
+/Gj+1YP7sn5D/GtX7Ha/8+0P/fAo+x2v/PtD/wB8Cjnl5fiHLR8/w/yMW61KGS0mQLJlkYDIHp9a
+szwzyX0vk3LRb5whGwEf6oHPP0ptzpsLXkqOvk+d/qZF+6PlwVI6Z6n+XStmjmb3IkofZv8AMwk1
+B4ggvFXdJGsimL0PY578U7+1YP7sn5D/ABq/5UMupTCSNH2wxgblBxy9TfY7X/n2h/74FHPLyHGN
+K3vXv8v8jK/tWD+7J+Q/xo/tWD+7J+Q/xrV+x2v/AD7Q/wDfAo+x2v8Az7Q/98Cjnl5fiVy0fP8A
+D/Iyv7Vg/uyfkP8AGnR6rb+YuRIBkZJHStP7Ha/8+0P/AHwKPsdr/wA+0P8A3wKOeXkHLR8/w/yK
+Xh//AI8X/wCuh/kK06YkUcYxHGiDrhVAp20egqYqysFWfPNyFopNo9BRtHoKZmLRSbR6CjaPQUAL
+RSbR6CjaPQUALRSbR6CjaPQUALRSbR6CigBaKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gCK5t47qLy5AeuVYcFT2IPrVdf7TSMqRayMOA5Zlz7kAf1q7RQBXs7Y24kaSTzZpG3O+3GfQfQf4
+1YoooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAoprOFZVOct0oDguy85XGaAHUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAEU2Q0b4JCnnAye
+lROpkDsFbazKACCCcHnipLq6htITJO20dAOpJ9AKin1CKG2imKSuZcbI0XLNxnpQAk6KvmAx9hsI
+XgD69qCj/ackfNuyCIyTj/ezjHtUkDQXkS3CBsN2JI5HYj1FWKAKiRbSjBMPvbJxzjn9KEjUoQI2
+EoHzNtxk/XvVukZQykHOD6HFAEdud0fmEEFznBqWgAAADgCigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAIbtN9tLhdzbG28ZPTtVCUSwQ6fcC
+CWQQrh0QZYZXHStWigCnpMUkdmTKpRpJGk2nqoJyBVyiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAZK7LtVANzHAz0HvSKXXP
+m7cAZ3DgflSyIWKspAZTkZ6H2qH7OWaRmWOMsuMJzn3J4oAmE0ZUnJ+XrkEH8qaZgduzu205BBFM
+aKVg7ZVWIAAVj0HvQkDr1x98N94nt6mgCxRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU141c5JYfRiP5U3yE9ZP+/jf40ASUVH5
+Cesn/fxv8aBAgPWT/v43+NAElFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="56;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c00f5760-d0a3-44d4-81e0-350aa3b99dd5"
+		sx="672"
+		sy="503"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="623e5889-a80b-444e-9688-abd9210c52b2"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//h2[@class='layout-group-item-title' and text()='Insured Info']
+				</path>
+			</info>
+		</mouseitem>
+		<mousewheelitem
+		delta="-120"
+		duration="500ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mousewheelitem
+		delta="240"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ddde5175-f65e-4d80-9e32-2cc596323f78">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="eff2adaa-f910-4143-a2f2-45eed4de3f11"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//h2[@innertext='Personal Information']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Personal Information
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ddde5175-f65e-4d80-9e32-2cc596323f78">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e1181ce0-faaa-4e49-b0fe-607d6587d148"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="107,388,107,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						field-caption dataLabelForRead afnilabel_dataLabelForRead
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						First name
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						afnilabel_dataLabelForRead dataLabelForRead field-caption
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[#'workarea']/div[2]/div/div[1]/div[4]/iframe[@name='PegaGadget2Ifr']/body/div[2]/form[@name='main']/div[3]/div/section/div/div[3]/div/div/div/div/div/div/div/div/div[11]/div[2]//span/div/span[1]/div/div[2]/div/div[1]/div/div/div/div/div/div/div[1]/span[@innertext='First name']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="8c7252e8-e60c-4b36-a1c2-2a997b9717d6">
+				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
+l95Qkht4G9sA+oGcD8KsUUAf/9k=
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				First name
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="d0b4ee65-6d01-47bf-bdaf-8e4aa9ecb5cc">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_PI_FirstName">
+				</binding>
+			</bindings>
+			<info
+			id="7d8ff0d5-d369-4b67-b165-af31a424d67e"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="107,403,107,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						ID_PI_FirstName
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					isempty="True"
+					name="data-template"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-test-id"
+					readonly="False"
+					type="System.String">
+						201801040250510263390925
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[#'workarea']/div[2]/div/div[1]/div[4]/iframe[@name='PegaGadget2Ifr']/body/div[2]/form[@name='main']/div[3]/div/section/div/div[3]/div/div/div/div/div/div/div/div/div[11]/div[2]//span/div/span[1]/div/div[2]/div/div[1]/div/div/div/div/div/div/div[1]/div/span[@innertext='ID_PI_FirstName']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="de0841ae-af5b-414b-b7fc-e79a108b37a1">
+				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
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				ID_PI_FirstName
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="4c2b1920-a35f-46d5-a9bf-32918ac45009">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ID_PI_FirstName">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5ca9acd2-0b46-4aba-9250-525ce73906cc">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="22c24c2c-d905-49de-988d-cb3c99b8e19e"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="221,388,107,15"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						field-caption dataLabelForRead afnilabel_dataLabelForRead
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Last Name
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						afnilabel_dataLabelForRead dataLabelForRead field-caption
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//div[#'workarea']/div[2]/div/div[1]/div[4]/iframe[@name='PegaGadget2Ifr']/body/div[2]/form[@name='main']/div[3]/div/section/div/div[3]/div/div/div/div/div/div/div/div/div[11]/div[2]//span/div/span[1]/div/div[2]/div/div[1]/div/div/div/div/div/div/div[2]/span[@innertext='Last Name']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="d5761258-8093-4c87-83a1-55bd38a40437">
+				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
+A//Z
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Last Name
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_PI_LastName">
+				</binding>
+			</bindings>
+			<info
+			id="9ca303c2-962a-41a1-ab4e-15fb323a237f"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='ID_PI_LastName']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				ID_PI_LastName
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="8908ea72-ef4a-44de-ad54-6e9290e637d0">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ID_PI_LastName">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a76b460e-535e-422e-a118-35ece40b2b82"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Address line 1']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Address line 1
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_PI_Address1">
+				</binding>
+			</bindings>
+			<info
+			id="32bbe14d-e8bb-42d9-9aff-b2cddd072c86"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='ID_PI_Address1']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				ID_PI_Address1
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ID_PI_Address1">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bbb9d4e8-fd82-4906-b7c5-97f60fe81645"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Address line 2']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Address line 2
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_PI_Address2">
+				</binding>
+			</bindings>
+			<info
+			id="7b338d19-0aa1-4382-98d0-fa65b62933d5"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='ID_PI_Address2']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				ID_PI_Address2
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ID_PI_Address2">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3227a030-c9bc-4dc6-b454-beb9ca6c27c7"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='City']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				City
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_PI_City">
+				</binding>
+			</bindings>
+			<info
+			id="3bc5ffed-529a-4288-9f31-adb369b94fdc"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='ID_PI_City']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				ID_PI_City
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ID_PI_City">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ee137858-2a7d-4061-9001-763a68627e62"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='State']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				State
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_PI_State">
+				</binding>
+			</bindings>
+			<info
+			id="c7a7a552-1656-44c6-b282-054a1249482d"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='OR']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				OR
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ID_PI_State">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="40ff23c1-1c69-4d15-8031-2cd3ca04279c"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Zip']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Zip
+			</matchvalue>
+		</validationitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="eae0774f-d114-4648-8535-472dfdb8545d"
+		varname="ID_PI_Zip">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6801e71c-5bca-4bd7-a256-ff480ee81e9d"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='30000-6001']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_PI_Zip">
+				</binding>
+			</bindings>
+			<info
+			id="6801e71c-5bca-4bd7-a256-ff480ee81e9d"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='30000-6001']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				30000-6001
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ID_PI_Zip">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6ff27b1d-bf8a-4847-b2e5-f0cf49b61a4b"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//h2[@innertext='Phone/Fax Information']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Phone/Fax Information
+			</matchvalue>
+		</validationitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b2df29b2-78a5-4906-9723-b94e395b805b"
+		varname="AD1_PI_UseType">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9647a2de-107e-4740-9c3f-27c8e572f736"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Use Type']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_PI_UseType">
+				</binding>
+			</bindings>
+			<info
+			id="9647a2de-107e-4740-9c3f-27c8e572f736"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Use Type']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Use Type
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_PI_UseType">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b2df29b2-78a5-4906-9723-b94e395b805b"
+		varname="AD1_LI_Busniess">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="28765c01-3529-4334-bc8f-5eb46fa0f773"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Business']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_LI_Busniess">
+				</binding>
+			</bindings>
+			<info
+			id="28765c01-3529-4334-bc8f-5eb46fa0f773"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Business']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Business&#10;
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_LI_Busniess">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b2df29b2-78a5-4906-9723-b94e395b805b"
+		varname="AD1_LI_PhoneType">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="28e6008a-a8ed-4045-9078-8ea335d8388c"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Phone Type']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_LI_PhoneType">
+				</binding>
+			</bindings>
+			<info
+			id="28e6008a-a8ed-4045-9078-8ea335d8388c"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Phone Type']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Phone Type
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_LI_PhoneType">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b2df29b2-78a5-4906-9723-b94e395b805b"
+		varname="AD1_LI_Cell">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2662251a-4ce7-47e8-9ca4-c357011cb599"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Cell']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_LI_Cell">
+				</binding>
+			</bindings>
+			<info
+			id="2662251a-4ce7-47e8-9ca4-c357011cb599"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Cell']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Cell
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_LI_Cell">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b2df29b2-78a5-4906-9723-b94e395b805b"
+		varname="AD1_PI_Source">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7e061d8b-7043-4d0e-9234-b3e3c43c891b"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Source']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AD1_PI_Source">
+				</binding>
+			</bindings>
+			<info
+			id="7e061d8b-7043-4d0e-9234-b3e3c43c891b"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[text()='Source']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Source
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AD1_PI_Source">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="b2df29b2-78a5-4906-9723-b94e395b805b"
+		varname="AO1_LI_CallerID">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="36a97fb1-30c4-4847-b07e-8b260c56d615"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Caller ID']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="AO1_LI_CallerID">
+				</binding>
+			</bindings>
+			<info
+			id="36a97fb1-30c4-4847-b07e-8b260c56d615"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Caller ID']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Caller ID
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="AO1_LI_CallerID">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="bbc24b21-7ca5-469f-8ff5-e3a6f8439d7f"
+		varname="ID_PI_PhoneNumber">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8d997e40-c840-44c7-a23a-5c0ee1c07833"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='(950) 009-5011']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="50b14f29-59cc-410b-ae82-5f2876ce9b1b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_PI_PhoneNumber">
+				</binding>
+			</bindings>
+			<info
+			id="8d997e40-c840-44c7-a23a-5c0ee1c07833"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='(950) 009-5011']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				(950) 009-5011
+			</matchvalue>
+		</validationitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="fee21145-c7f1-4a9e-9e3e-9583baef62e2">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ID_PI_PhoneNumber">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="d8c4034f-596c-4755-95c6-cc2d7e4fcd20"
+	name="SubmissionCase_E2ERepository"
+	relativepath="SubmissionCase_E2ERepository.rxrep">
+		<codegen
+		classname="SubmissionCase_E2ERepository"
+		namespace="SubmissionCase_E2E">
+		</codegen>
+		<rootfolder
+		id="edc9576f-e82e-4618-86bf-a3926f9358cd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InsuredDetails_Personal_information_FooterMapping.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

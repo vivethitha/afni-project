@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ebe71c98-6429-436d-88c7-bb0c900f5487"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Create_NewClaim_FooterMapping"
+	namespace="SubmissionCase_E2E">
+	</codegen>
+	<variables>
+		<var
+		id="6e44d2f4-4f13-48cd-ac5b-7b93b451e9d9"
+		name="ClaimInformation_ClientName">
+		</var>
+		<var
+		id="7a0f2acc-4e33-4b9f-84dd-eab6c68b0821"
+		name="ClaimInformation_ClaimNumber">
+		</var>
+	</variables>
+	<recorditems>
+		<mousewheelitem
+		delta="-480"
+		duration="500ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mousewheelitem
+		delta="360"
+		duration="500ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="39;4"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="275a4c18-f55f-4d46-af33-a5f85995cd14"
+		sx="672"
+		sy="482"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b3d59298-60da-4f07-9aa0-a5bad2faeee6"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, h2tag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="h2tag"
+				rect="633,478,105,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						layout-group-item-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						headerlabel9474
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Claim Info
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						layout-group-item-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						h2
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-level"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//h2[@class='layout-group-item-title' and text()='Claim Info']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="283c5947-e70a-42f1-ab9b-359c683cafe2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d1c72fb5-2045-43d8-9863-aaee663397da"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//span[text()='Client Name']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Client Name
+			</matchvalue>
+		</validationitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="16a0da2d-a768-416a-b606-21510eb56b35"
+		varname="ClaimInformation_ClientName">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b74f0974-c54d-4604-aa8a-6bc3de913918"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//span[@data-test-id='2019031909131904288414']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="6e47f5be-f9bb-4818-8385-e726e5a8e7f6">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ClaimInformation_ClientName">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="729e0de8-666c-4ff9-ac8b-5ad0265431e9">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ClaimInformation_ClientName">
+				</binding>
+			</bindings>
+			<info
+			id="b74f0974-c54d-4604-aa8a-6bc3de913918"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="507,614,38,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						USAA
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					isempty="True"
+					name="data-template"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-test-id"
+					readonly="False"
+					type="System.String">
+						2019031909131904288414
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//span[@data-test-id='2019031909131904288414']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2ce6cdff-d4c8-47eb-8fe4-2acd2184e6e3">
+				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
+Y5oooAWiiigD/9k=
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				USAA
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="False"
+		optional="False"
+		searchpropertyid="204a0183-b988-4134-a03b-5fb586932c36">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ClaimInformation_ClaimNumber">
+				</binding>
+			</bindings>
+			<info
+			id="51e3baff-b024-44aa-9d7d-8815a57ddae8"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//span[text()='Claim Number']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Claim Number
+			</matchvalue>
+		</validationitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="65836bdb-f42b-42fd-a267-7568caac7a6b"
+		varname="ClaimInformation_ClaimNumber">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8a915820-4552-4956-a927-108bab236438"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//span[@data-test-id='20190319091251091215245']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="99a72110-3396-4b1f-837b-487ee0bc045f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="ClaimInformation_ClaimNumber">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="0d8b6c3a-5e3c-4fc5-b0b3-dadeaba19084">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ClaimInformation_ClaimNumber">
+				</binding>
+			</bindings>
+			<info
+			id="8a915820-4552-4956-a927-108bab236438"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="893,614,128,16"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						0.482785532403796
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					isempty="True"
+					name="data-template"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-test-id"
+					readonly="False"
+					type="System.String">
+						20190319091251091215245
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//span[@data-test-id='20190319091251091215245']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b42561fc-46b4-42e5-b402-b46af55f8d56">
+				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
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				0.482785532403796
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="d8c4034f-596c-4755-95c6-cc2d7e4fcd20"
+	name="SubmissionCase_E2ERepository"
+	relativepath="SubmissionCase_E2ERepository.rxrep">
+		<codegen
+		classname="SubmissionCase_E2ERepository"
+		namespace="SubmissionCase_E2E">
+		</codegen>
+		<rootfolder
+		id="edc9576f-e82e-4618-86bf-a3926f9358cd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Create_NewClaim_FooterMapping.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

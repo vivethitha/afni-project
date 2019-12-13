@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f5881cf3-fcd8-467a-a6db-701907a09d9e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InsuredDetails_Vechicle_Information_FooterMapping"
+	namespace="SubmissionCase_E2E">
+	</codegen>
+	<variables>
+		<var
+		id="ca40622f-067c-41be-8f70-0adbbd3bf42d"
+		name="ID_VI_LicensePlate">
+		</var>
+		<var
+		id="21b64742-0bc2-44af-b9de-6feb67ff3644"
+		name="ID_VI_LicensePlateState">
+		</var>
+		<var
+		id="7e315b0e-30ac-4b2c-9d02-6e4ad06acffb"
+		name="ID_VD_Vin_Year">
+		</var>
+		<var
+		id="3439a3f5-fd2b-49f1-b886-3b39b8b2db1d"
+		name="ID_VD_VIN_Make">
+		</var>
+	</variables>
+	<recorditems>
+		<mousewheelitem
+		delta="-480"
+		duration="500ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="50;13"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="6383662c-522f-49cd-bcfd-bad72c02cd97"
+		sx="561"
+		sy="510"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b3d59298-60da-4f07-9aa0-a5bad2faeee6"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, h2tag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="h2tag"
+				rect="511,497,105,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						layout-group-item-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						headerlabel5157
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Claim Info
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						layout-group-item-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						h2
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-level"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//h2[@class='layout-group-item-title' and text()='Claim Info']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="734aa64f-0f54-4231-ac5d-1d9381bd3303">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAEUARQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAZ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt
++tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQB
+J5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361
+HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHme361HRQBJ5nt+tHm
+e361HRQBJ5nt+tFR0UAS7F9KNi+lOooAbsX0o2L6U6igBuxfSjYvpTqKAG7F9KNi+lOooAbsX0o2
+L6U6igBuxfSjYvpVW81KGzlEciyEld3ygf4+1Qf27a/885vyH+NS5JGsaFSSukaOxfSjYvpWd/bt
+r/zzm/If40f27a/885vyH+NHPHuV9Xq/ymjsX0o2L6Vnf27a/wDPOb8h/jR/btr/AM85vyH+NHPH
+uH1er/KaOxfSjYvpWd/btr/zzm/If40f27a/885vyH+NHPHuH1er/KaOxfSjYvpWd/btr/zzm/If
+40f27a/885vyH+NHPHuH1er/ACmjsX0o2L6Vnf27a/8APOb8h/jR/btr/wA85vyH+NHPHuH1er/K
+aOxfSjYvpWd/btr/AM85vyH+NH9u2v8Azzm/If40c8e4fV6v8po7F9KNi+lRWd3HeRGSMMAG2/MP
+8+tT1SdzGUXF2Y3YvpRsX0p1FAhuxfSjYvpTqKAG7F9KNi+lOooAbsX0o2L6U6igBuxfSinUUAU7
+q7ltYw7xwgBcszzbAT6Lxz+OKBfF7hYo0Q5UMQ0m1yD3Axz+dJJYs0hZJQN0fllmTc+PZs8fkaJb
+F5Y0ieWNolA4MWSCO6nPH60ANk1SJJym6HarbWzMA+fZcc/nU188yQr9nYLIXUDI4PtQtvLHI3lT
+qsTNuKlMsD3wc/0NSzReaE5xtcN064oArG9G+J8lY/LdpFxyCMcfzpWupwjBoVR2QtH8+enrxwfz
+pZLBJLtpixCuhR0HcnHP14pyWshOZ5g+1SqbU24B7nk5P5UAVzqXlJGshtxL5YdxJME6+nHJ/KpP
+t++ZEhRG3qGAaTazA/3Rjn8xTltZ49rRToH2hHJjJBA6EDPBoubSS4Xy2lRoyBuDxAnPqDxg/gaA
+LdFAGBiigDJvv+Q5B/1z/wDiqs1Wvv8AkOQf9c//AIqrNVT6+peI+x6fqwqKRmMqxK23I3E45qWo
+5IyzK6NtdeM4yMVsjmYyQyxRn593zLg45685oa4KSqrKo3HAG/5vrilaFnU75MkkHgcDB7Cm/ZiD
+w4A37/u8nnuar3epOoLOxIVU3Fi3VsdD9KWOdnKZj2q+cHdzmkZBbqZmYkRh2IA655pLcbwAVdGh
+Ygq4GeRnsT60m4jsx7yMs4H8Owtj6YponcgfuwCyFl+b+fFSPFuk3Zx8pXp600QY2fN9xCvTrRoG
+pHDNKUA2+Y20M2Wx17DirCMHQMOhGaiEDKB5cgU7Qpyuc471KihECjoBiiVugK46nJ/rF+optOT/
+AFi/UVDKK/h//jxf/rof5CtOszw//wAeL/8AXQ/yFadc8PhR2Yj+LIiupDFASn3z8q/U9KhjuWjt
+n87LyxNsOONxPT88ipLi2S5ePzQrxpklGXIJ7VEdOiVn8kLCrgZVFwNwOQaowGC7njnkE8aqqhOF
+bIGSRnOB7VJcX6Q7gdgw+xS77VJxk5PalFo7GY3EokMqBCFTaB16cn1pEsnS3iUTZmjJbzCvBJ65
+Gff1oAamoebGnlJHI7OU+WTK5xn72On4U6K8aS5aIJH8hwwEvzr77cdPfNP+zyMYmllDMj7uEwOh
+GBzx196bJaNLcK8siMiNuX93849t2en4UARRapHLOqBoSrttXEwL591xx+dWJZGW7hQH5WViR64x
+TYLeaEhBOvkL91dnzY9Cc9PwqSSHfPHJuxsDDGOuaAIIri7miWWO2h2MMjdMQf0U0VYtovIt44t2
+7YuM4xmigCSik2j0FG0egoAWik2j0FG0egoAWik2j0FG0egoAWik2j0FG0egoAWik2j0FG0egoAx
+tUlWDV4ZHBIEfb/gVJ/asH92T8h/jWu9vBIcyQxuemWUGm/Y7X/n2h/74FEXKOxtJ05pc19FbSxl
+f2rB/dk/If40f2rB/dk/If41q/Y7X/n2h/74FH2O1/59of8AvgU+eXl+JPLR8/w/yMr+1YP7sn5D
+/Gj+1YP7sn5D/GtX7Ha/8+0P/fAo+x2v/PtD/wB8Cjnl5fiHLR8/w/yMW61KGS0mQLJlkYDIHp9a
+szwzyX0vk3LRb5whGwEf6oHPP0ptzpsLXkqOvk+d/qZF+6PlwVI6Z6n+XStmjmb3IkofZv8AMwk1
+B4ggvFXdJGsimL0PY578U7+1YP7sn5D/ABq/5UMupTCSNH2wxgblBxy9TfY7X/n2h/74FHPLyHGN
+K3vXv8v8jK/tWD+7J+Q/xo/tWD+7J+Q/xrV+x2v/AD7Q/wDfAo+x2v8Az7Q/98Cjnl5fiVy0fP8A
+D/Iyv7Vg/uyfkP8AGnR6rb+YuRIBkZJHStP7Ha/8+0P/AHwKPsdr/wA+0P8A3wKOeXkHLR8/w/yK
+Xh//AI8X/wCuh/kK06YkUcYxHGiDrhVAp20egqYqysFWfPNyFopNo9BRtHoKZmLRSbR6CjaPQUAL
+RSbR6CjaPQUALRSbR6CjaPQUALRSbR6CigBaKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gCK5t47qLy5AeuVYcFT2IPrVdf7TSMqRayMOA5Zlz7kAf1q7RQBXs7Y24kaSTzZpG3O+3GfQfQf4
+1YoooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAoprOFZVOct0oDguy85XGaAHUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAEU2Q0b4JCnnAye
+lROpkDsFbazKACCCcHnipLq6htITJO20dAOpJ9AKin1CKG2imKSuZcbI0XLNxnpQAk6KvmAx9hsI
+XgD69qCj/ackfNuyCIyTj/ezjHtUkDQXkS3CBsN2JI5HYj1FWKAKiRbSjBMPvbJxzjn9KEjUoQI2
+EoHzNtxk/XvVukZQykHOD6HFAEdud0fmEEFznBqWgAAADgCigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAIbtN9tLhdzbG28ZPTtVCUSwQ6fcC
+CWQQrh0QZYZXHStWigCnpMUkdmTKpRpJGk2nqoJyBVyiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAZK7LtVANzHAz0HvSKXXP
+m7cAZ3DgflSyIWKspAZTkZ6H2qH7OWaRmWOMsuMJzn3J4oAmE0ZUnJ+XrkEH8qaZgduzu205BBFM
+aKVg7ZVWIAAVj0HvQkDr1x98N94nt6mgCxRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU141c5JYfRiP5U3yE9ZP+/jf40ASUVH5
+Cesn/fxv8aBAgPWT/v43+NAElFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="56;6"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c00f5760-d0a3-44d4-81e0-350aa3b99dd5"
+		sx="672"
+		sy="503"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="623e5889-a80b-444e-9688-abd9210c52b2"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//iframe[#'PegaGadget1Ifr']//h2[@class='layout-group-item-title' and text()='Insured Info']
+				</path>
+			</info>
+		</mouseitem>
+		<mousewheelitem
+		delta="-120"
+		duration="500ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mousewheelitem
+		delta="240"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a91a8b77-c638-45d3-af48-0e7fda958bb6"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Insured Vehicle Information']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Insured Vehicle Information
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7a8c2f13-e893-4c93-bfac-b4ab5e8cd17d"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Vehicle Information']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Vehicle Information
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="56270e80-7f8c-4e1e-9301-5e38b74dbbf7"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Do you have VIN Number?']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Do you have VIN Number?
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5524b9af-e1b2-482b-845e-bd9897bdcd7f"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='No']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				No
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d591e67e-b0ab-4d2e-88e2-1093ddead241"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='License plate']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				License plate
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_VI_LicensePlate">
+				</binding>
+			</bindings>
+			<info
+			id="7f8a065e-e64c-46ae-8a9f-eb4eba36caff"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='ID_VI_LicensePlate']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				ID_VI_LicensePlate
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6c800b65-ef41-43b1-a521-00beaa0d2f87"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='License Plate State']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				License Plate State
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_VI_LicensePlateState">
+				</binding>
+			</bindings>
+			<info
+			id="ce6ca62a-b379-44d6-855a-1d64d18965a9"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='MA']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				MA
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="254d73ce-4e85-4d40-9a29-c2399b2c0a16"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='(Enter model details manually']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Enter model details manually
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="False"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5c6f8381-2b0e-4cd1-9461-5a69e68d641f"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//img[@alt='false']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cdb1cacc-4fb8-407f-b45d-6af5f3614aff"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Year']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Year
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_VD_Vin_Year">
+				</binding>
+			</bindings>
+			<info
+			id="384cdf7a-3026-4dfa-a81a-2bffb2ce3754"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='(2014']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				2014
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ea914b12-58c1-4ba8-b161-81e92d314b54"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Make']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Make
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="ID_VD_VIN_Make">
+				</binding>
+			</bindings>
+			<info
+			id="b65820c3-767e-459e-88c4-83a8d64179fc"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Volkswagen']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Volkswagen
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="877fff6c-ffbe-496f-9550-c735b09f4776">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3a45f643-60de-4e5b-8db6-acaed0fdccc9"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='afni-afnicc-stg1.pegacloud.net']//span[@innertext='Model']
+				</path>
+			</info>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Model
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="d8c4034f-596c-4755-95c6-cc2d7e4fcd20"
+	name="SubmissionCase_E2ERepository"
+	relativepath="SubmissionCase_E2ERepository.rxrep">
+		<codegen
+		classname="SubmissionCase_E2ERepository"
+		namespace="SubmissionCase_E2E">
+		</codegen>
+		<rootfolder
+		id="edc9576f-e82e-4618-86bf-a3926f9358cd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InsuredDetails_Vechicle_Information_FooterMapping.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
